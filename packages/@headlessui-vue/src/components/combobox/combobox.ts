@@ -491,6 +491,7 @@ export let ComboboxInput = defineComponent({
         id,
         onKeydown: handleKeyDown,
         onChange: handleChange,
+        onInput: handleChange,
         role: 'combobox',
         tabIndex: 0,
         ref: api.inputRef,
